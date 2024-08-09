@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'SK Designers',
       home: HomePage(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
